@@ -1,0 +1,25 @@
+.index {
+    font-family: Georgia, sans-serif;
+    background: linear-gradient(rgb(253, 150, 150), rgb(199, 199, 240));
+    height: 870px;
+    width: auto;
+
+}
+.recipes {
+    font-size: large;
+    font-weight: 500;
+    padding-left: 43%;
+}
+
+/* CSS for the Carbonara recipe */
+
+.index h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20%;
+}
+
+img {
+    float: right;
+    padding-right: 5%;
+}
