@@ -16,16 +16,30 @@ body {
 
 .description, .ingredients, .steps {
     background-color: #A9A9A9;
-    padding-left: 23%;
-    width: 150px;
     color: #191970;
     text-align: center;
+    box-sizing: border-box;
+    width: 180px;
+    height: 40px;
+    margin-left: 380px;
+    border: 3px solid plum;
+    padding: 3px;
 
 }
 
 .recipes-body h1 {
     font-size: 42px;
-    color: #191970;
+    text-align: left;
+    color: #091557;
+    background-color: #DC143C;
+    box-sizing: border-box;
+    width: 200px;
+    height: 58px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    border: 1px solid #F0F8FF;
+    padding: 3px;
+
 }
 
 
