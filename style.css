@@ -1,25 +1,67 @@
-.index {
+/* Whole page */
+
+li {
+    margin: 8px;
+    text-decoration: none;
+}
+
+body {
     font-family: Georgia, sans-serif;
-    background: linear-gradient(rgb(253, 150, 150), rgb(199, 199, 240));
-    height: 870px;
-    width: auto;
-
-}
-.recipes {
-    font-size: large;
-    font-weight: 500;
-    padding-left: 43%;
+    background: #F0F8FF;
 }
 
-/* CSS for the Carbonara recipe */
+.recipes-body {
+    padding-left: 2%;
+}
 
-.index h1 {
+.description, .ingredients, .steps {
+    background-color: #A9A9A9;
+    padding-left: 23%;
+    width: 150px;
+    color: #191970;
     text-align: center;
-    font-size: 40px;
-    padding-top: 20%;
+
 }
+
+.recipes-body h1 {
+    font-size: 42px;
+    color: #191970;
+}
+
 
 img {
     float: right;
     padding-right: 5%;
 }
+/* Index*/ 
+
+.index-body {
+    font-family: Georgia, sans-serif;
+    background: #F0F8FF;
+    height: 870px;
+    width: auto;
+}
+
+.recipes {
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    padding-left: 43%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.index-body h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 15%;
+    color: #778899;
+}
+
+/* CSS for Carbonara */
+
+
+/* CSS for Blue cheese burger */
+
